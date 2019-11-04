@@ -18,9 +18,16 @@ void soma()
 void subtrai()
 {
     //todo
-    system ("pause");
+    float valor1, valor2, result;
+    printf("\nprimeiro numero: "); 
+    scanf("%f", &valor1);
+    printf("segundo numero: "); 
+    scanf("%f", &valor2);
+    result = valor1 - valor2; 
+    printf("\nResultado da subtraçao: %.2f\n ", result); 
+    system ("pause"); 
     system("cls"); 
-    menu();
+    menu(); 
 }
 
 void divide()
