@@ -48,8 +48,15 @@ void divide()
 void multiplica()
 { 
     //todo
-    system ("pause");
-    system("cls");
+    float valor1, valor2, result;
+    printf("\nprimeiro numero: "); 
+    scanf("%f", &valor1);
+    printf("segundo numero: "); 
+    scanf("%f", &valor2);
+    result = valor1 * valor2; 
+    printf("\nResultado da Multilplicacao\n: %.2f\n ", result); 
+    system ("pause"); 
+    system("cls"); 
     menu();
 }
 
